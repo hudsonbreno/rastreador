@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretório de dependências para pacotes executáveis do Yarn
+.pnp
+.pnp.js
+
+# Arquivos de cache
+.cache/
+dist/
+build/
+tmp/
+temp/
+
+# Arquivos do dotenv (variáveis de ambiente)
+.env
+.env.*.local
+
+# Cache do npm
+npm-debug.log*
+yarn-debug.log*
+.yarn-integrity
+.sourcemaps
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes de cobertura
+coverage/
+.nyc_output/
+
+# Configurações do Git
+.git/
+
+# Saída de pacotes
+*.tgz
+
+# Arquivos de lock (opcional)
+package-lock.json
+yarn.lock
+
+# Outros
+*.log
+*.swp
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos relacionados ao Docker
+docker-compose.override.yml
+.dockerignore
+
+# Configurações e cache do Parcel
+.cache/
+.parcel-cache/
